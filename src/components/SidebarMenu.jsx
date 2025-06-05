@@ -21,9 +21,9 @@ export default function SidebarMenu() {
         )}
       </div>
       <div className="flex gap-4 items-center justify-center mt-8">
-        <img src=\"/instagram-icon.png\" alt=\"Instagram\" className=\"w-6 h-6 hover:scale-125 transition\" />
-        <img src=\"/facebook-icon.png\" alt=\"Facebook\" className=\"w-6 h-6 hover:scale-125 transition\" />
-        <img src=\"/tik-tok-icon.png\" alt=\"TikTok\" className=\"w-6 h-6 hover:scale-125 transition\" />
+        <img src="/instagram-icon.png" alt="Instagram" className="w-6 h-6 hover:scale-125 transition" />
+        <img src="/facebook-icon.png" alt="Facebook" className="w-6 h-6 hover:scale-125 transition" />
+        <img src="/tik-tok-icon.png" alt="TikTok" className="w-6 h-6 hover:scale-125 transition" />
       </div>
     </div>
   );
