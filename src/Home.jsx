@@ -23,7 +23,7 @@ export default function Home() {
           </Suspense>
         </Canvas>
         <div className="absolute bottom-10 w-full flex flex-col items-center text-center text-neutral-900">
-          <h1 className="text-4xl md:text-6xl font-semibold">Peak Oasis Retreat</h1>
+          <h1 className="text-4xl md:text-6xl font-semibold">Peak Oasis</h1>
           <p className="text-lg md:text-xl mt-2 max-w-md">Luxury beachside picnics, glamping, and exclusive event experiences at Virgin Gorda.</p>
           <a
             href="https://forms.gle/YOUR_GOOGLE_FORM_LINK"
