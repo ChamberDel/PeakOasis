@@ -1,11 +1,10 @@
-// App.jsx
-import { Routes, Route } from "react-router-dom";
-import SidebarMenu from "./components/SidebarMenu";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Gallery from "./pages/Gallery";
-import Experiences from "./pages/Experiences";
-import BookNow from "./pages/BookNow";
+import { Routes, Route } from 'react-router-dom';
+import SidebarMenu from './components/SidebarMenu';
+import Home from './pages/Home';
+import About from './pages/About';
+import Gallery from './pages/Gallery';
+import Experiences from './pages/Experiences';
+import BookNow from './pages/BookNow';
 
 export default function App() {
   return (
