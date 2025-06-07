@@ -7,8 +7,11 @@ export default function SidebarMenu() {
   return (
     <div className="w-64 p-4 bg-white shadow-lg rounded-r-3xl flex flex-col justify-between min-h-screen">
       <div>
-        <button onClick={() => setOpen(!open)} className="mb-4 w-full text-left font-bold text-xl">
-          ☰ Menu
+        <button
+          onClick={() => setOpen(!open)}
+          className="mb-4 w-full text-left font-bold text-2xl"
+        >
+          ☰
         </button>
         {open && (
           <nav className="space-y-3">
@@ -20,11 +23,7 @@ export default function SidebarMenu() {
           </nav>
         )}
       </div>
-      <div className="flex gap-4 items-center justify-center mt-8">
-        <img src="/instagram-icon.png" alt="Instagram" className="w-6 h-6 hover:scale-125 transition" />
-        <img src="/facebook-icon.png" alt="Facebook" className="w-6 h-6 hover:scale-125 transition" />
-        <img src="/tik-tok-icon.png" alt="TikTok" className="w-6 h-6 hover:scale-125 transition" />
-      </div>
     </div>
   );
 }
+
